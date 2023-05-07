@@ -3,6 +3,7 @@
 	"description": "A visual woodpecker build status indicator for directus",
 	"icon": "extension",
 	"version": "1.0.0",
+	"author": "sguter90",
 	"keywords": [
 		"directus",
 		"directus-extension",
@@ -19,11 +20,17 @@
 		"build": "directus-extension build",
 		"dev": "directus-extension build -w --no-minify",
 		"link": "directus-extension link",
-		"deploy": "rsync -avzr ./ $1"
+		"deploy": "rsync -avzr ./ $1",
+		"bump": "yarn version"
 	},
 	"devDependencies": {
 		"@directus/extensions-sdk": "10.0.0",
 		"@types/node": "^20.1.0",
 		"typescript": "^5.0.4"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sguter90/directus-extension-woodpecker-build-status"
+	},
+	"license": "MIT"
 }
