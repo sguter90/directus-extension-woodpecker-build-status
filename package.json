@@ -2,7 +2,7 @@
 	"name": "directus-extension-woodpecker-build-status",
 	"description": "A visual woodpecker build status indicator for directus",
 	"icon": "extension",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"author": "sguter90",
 	"keywords": [
 		"directus",
