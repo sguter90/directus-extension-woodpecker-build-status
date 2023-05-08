@@ -4,9 +4,9 @@ An extension for [Directus](https://github.com/directus/directus) which adds a v
 ## How it works
 The woodpecker badge API is used to fetch the current pipeline status.
 This results in 3 states which are represented in a small status bar:
-* success: last build was successful (green bar + fade out animation)
-* in-progress: pipeline is currently running (orange bar + loading animation)
-* failed: last build failed (red bar + blink animation)
+* **success**: last build was successful (primary colored bar + fade out animation)
+* **in-progress**: pipeline is currently running (primary colored bar + loading animation)
+* **failed**: last build failed (red colored bar + blink animation)
 
 ![Loading bar demo](doc/demo.gif)
 
